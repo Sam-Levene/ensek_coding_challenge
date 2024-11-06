@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ensek_coding_challenge")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d4598d46244a8919fea7dd985601527ae363ace4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+21dfe013392b897c24cbcd263e836e1a88bd0ba0")]
 [assembly: System.Reflection.AssemblyProductAttribute("ensek_coding_challenge")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ensek_coding_challenge")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

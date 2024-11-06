@@ -1,6 +1,7 @@
 using AventStack.ExtentReports;
 using AventStack.ExtentReports.Reporter;
 using AventStack.ExtentReports.Reporter.Config;
+using ensek_coding_challenge.Utilities;
 using NUnit.Framework; // Or whatever testing framework you're using
 
 public class ExtentReportManager
@@ -28,7 +29,7 @@ public class ExtentReportManager
             string reportDir = Path.Combine(projectRoot, "Reports");
             Directory.CreateDirectory(reportDir);
 
-            string reportPath = Path.Combine(projectRoot, "Reports", "TestReport.html");
+            string reportPath = Path.Combine(projectRoot, "Reports", "TestReport_" + HelperFunctions.GetUnixTimeStamp() + ".html");
             _htmlReporter = new ExtentSparkReporter(reportPath);
             
              // Set the reporter properties

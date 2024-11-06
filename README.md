@@ -1,6 +1,6 @@
 # C# Selenium Automation Project
 
-This is a C# project that uses [Selenium WebDriver](https://www.selenium.dev/documentation/en/webdriver/) to automate web browser interactions for testing and scraping purposes. The project includes various examples of browser automation such as logging in, filling out forms, and performing basic validations.
+This is a C# project that uses [Selenium WebDriver](https://www.selenium.dev/documentation/en/webdriver/) to automate web browser interactions for testing and scraping purposes. The project will include various examples of browser automation such as logging in, filling out forms, and performing basic validations, but for now, it simply tests one area of the site validation for Proof of Concept purposes.
 
 ## Table of Contents
 

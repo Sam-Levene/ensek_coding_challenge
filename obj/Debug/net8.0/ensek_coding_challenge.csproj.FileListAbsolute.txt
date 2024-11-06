@@ -9,6 +9,7 @@ C:\Users\samle\Documents\projects\ensek_coding_challenge\bin\Debug\net8.0\nunit.
 C:\Users\samle\Documents\projects\ensek_coding_challenge\bin\Debug\net8.0\nunit.engine.api.dll
 C:\Users\samle\Documents\projects\ensek_coding_challenge\bin\Debug\net8.0\nunit.engine.core.dll
 C:\Users\samle\Documents\projects\ensek_coding_challenge\bin\Debug\net8.0\testcentric.engine.metadata.dll
+C:\Users\samle\Documents\projects\ensek_coding_challenge\bin\Debug\net8.0\appsettings.json
 C:\Users\samle\Documents\projects\ensek_coding_challenge\bin\Debug\net8.0\ensek_coding_challenge.deps.json
 C:\Users\samle\Documents\projects\ensek_coding_challenge\bin\Debug\net8.0\ensek_coding_challenge.runtimeconfig.json
 C:\Users\samle\Documents\projects\ensek_coding_challenge\bin\Debug\net8.0\ensek_coding_challenge.dll

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "3OvluvQ2QYA=",
+  "dgSpecHash": "dlGczvpeH8M=",
   "success": true,
   "projectFilePath": "C:\\Users\\samle\\Documents\\projects\\ensek_coding_challenge\\ensek_coding_challenge.csproj",
   "expectedPackageFiles": [
@@ -19,6 +19,7 @@
     "C:\\Users\\samle\\.nuget\\packages\\razorengine.netcore.nixfix\\1.0.1\\razorengine.netcore.nixfix.1.0.1.nupkg.sha512",
     "C:\\Users\\samle\\.nuget\\packages\\selenium.webdriver\\4.26.1\\selenium.webdriver.4.26.1.nupkg.sha512",
     "C:\\Users\\samle\\.nuget\\packages\\selenium.webdriver.chromedriver\\130.0.6723.9300\\selenium.webdriver.chromedriver.130.0.6723.9300.nupkg.sha512",
+    "C:\\Users\\samle\\.nuget\\packages\\seleniumextras.waithelpers\\1.0.2\\seleniumextras.waithelpers.1.0.2.nupkg.sha512",
     "C:\\Users\\samle\\.nuget\\packages\\system.collections.immutable\\5.0.0\\system.collections.immutable.5.0.0.nupkg.sha512",
     "C:\\Users\\samle\\.nuget\\packages\\system.configuration.configurationmanager\\4.5.0\\system.configuration.configurationmanager.4.5.0.nupkg.sha512",
     "C:\\Users\\samle\\.nuget\\packages\\system.drawing.common\\5.0.0\\system.drawing.common.5.0.0.nupkg.sha512",
@@ -33,7 +34,8 @@
     "C:\\Users\\samle\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512",
     "C:\\Users\\samle\\.nuget\\packages\\system.text.encoding.codepages\\4.5.1\\system.text.encoding.codepages.4.5.1.nupkg.sha512",
     "C:\\Users\\samle\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
-    "C:\\Users\\samle\\.nuget\\packages\\system.windows.extensions\\5.0.0\\system.windows.extensions.5.0.0.nupkg.sha512"
+    "C:\\Users\\samle\\.nuget\\packages\\system.windows.extensions\\5.0.0\\system.windows.extensions.5.0.0.nupkg.sha512",
+    "C:\\Users\\samle\\.nuget\\packages\\webdriverwaitextensions\\3.2.0\\webdriverwaitextensions.3.2.0.nupkg.sha512"
   ],
   "logs": []
 }

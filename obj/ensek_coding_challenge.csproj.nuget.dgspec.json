@@ -63,6 +63,14 @@
               "target": "Package",
               "version": "[130.0.6723.9300, )"
             },
+            "SeleniumExtras.WaitHelpers": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            },
+            "WebDriverWaitExtensions": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
             "log4net": {
               "target": "Package",
               "version": "[3.0.2, )"

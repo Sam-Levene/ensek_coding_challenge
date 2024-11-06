@@ -8,6 +8,10 @@ namespace ensek_coding_challenge.Utilities
             return DateTimeOffset.UtcNow.ToUnixTimeSeconds();
         }
 
+        public static DateTime getCurrentDate() {
+            return DateTime.Now;
+        }
+
         public static string CaptureScreenshot(string screenshotName, IWebDriver driver)
         {
            // Start from the current directory (bin/Debug/net8.0 or equivalent)

@@ -2,7 +2,6 @@ using AventStack.ExtentReports;
 using AventStack.ExtentReports.Reporter;
 using AventStack.ExtentReports.Reporter.Config;
 using ensek_coding_challenge.Utilities;
-using NUnit.Framework; // Or whatever testing framework you're using
 
 public class ExtentReportManager
 {

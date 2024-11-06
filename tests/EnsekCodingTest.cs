@@ -20,13 +20,18 @@ public class EnsekCodingTest
     [Test]
     public void TestGoogleSearch()
     {
+        ExtentReportManager.CreateTest("GoogleSearchTest");
+
         driver.Navigate().GoToUrl("https://www.google.com");
 
-        // Perform search action using page object
+        // Log the search action
+        ExtentReportManager.LogInfo("Performing Google Search");
+
         homePage.Search("Selenium WebDriver");
 
-        // Verify the result
         Assert.Equals(driver.PageSource.Contains("Selenium"), true);
+
+        ExtentReportManager.LogPass("Test Passed");
     }
 
     [TearDown]

@@ -92,24 +92,20 @@ Here's a basic overview of the project directory structure:
 
 ```bash
 /ensek_coding_challenge
-│
 ├── /AppConfig              # Configuration for the app site.
 │   └── Config.cs
-│
 ├── /Base                   # Default Base Class for the tests to inherit from
 │   └── BaseTests.cs
-│
 ├── /Pages                  # Page Object Models for Selenium (optional)
 │   └── RegisterPage.cs
-│
+├── /Reports                # Folder containing the reports from each run iteration
+├── /Screenshots            # Folder containing the screenshots from each run iteration
 ├── /Tests                  # Test scripts (if using NUnit or other testing frameworks)
 │   └── RegistrationTests.cs
-│
 ├── /Utilities              # Helper classes and methods, including the instructions for the Browser and the WebDriver.
 │   ├── DriverHelper.cs
 │   ├── HelperFunctions.cs
 │   └── ExtentReportManager.cs
-│
 ├── .gitignore
 ├── ensek_coding_challenge.csproj
 ├── ensek_coding_challenge.sln

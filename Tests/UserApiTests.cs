@@ -51,7 +51,7 @@ namespace ensek_coding_challenge.Tests
                 response.StatusCode.Should().Be(HttpStatusCode.OK);  // Assert status code is 200 OK
                 responseObject = JsonConvert.DeserializeObject<JObject>(response.Content);  
                 responseObject.Should().NotBeEmpty();  // Ensure the response is not empty
-                var responseMessage = responseObject.GetValue("message");
+                var responseMessage = responseObject.GetValue("message").ToString();
                 
                 Assert.That(responseMessage.Contains("Your order id is")); // Assert the response message has a key phrase in it
                 gasUnitOrderId = responseMessage.ToString().Split("Your order id is")[1];
@@ -75,7 +75,7 @@ namespace ensek_coding_challenge.Tests
                 response.StatusCode.Should().Be(HttpStatusCode.OK);  // Assert status code is 200 OK
                 responseObject = JsonConvert.DeserializeObject<JObject>(response.Content);
                 responseObject.Should().NotBeEmpty();  // Ensure the response is not empty
-                var responseMessage = responseObject.GetValue("message");
+                var responseMessage = responseObject.GetValue("message").ToString();
 
                 Assert.That(responseMessage.Contains("Your order id is")); // Assert the response message has a key phrase in it
                 nuclearUnitOrderId = responseMessage.ToString().Split("Your order id is")[1];
@@ -99,7 +99,7 @@ namespace ensek_coding_challenge.Tests
                 response.StatusCode.Should().Be(HttpStatusCode.OK);  // Assert status code is 200 OK
                 responseObject = JsonConvert.DeserializeObject<JObject>(response.Content);
                 responseObject.Should().NotBeEmpty();  // Ensure the response is not empty
-                var responseMessage = responseObject.GetValue("message");
+                var responseMessage = responseObject.GetValue("message").ToString();
 
                 Assert.That(responseMessage.Contains("Your order id is")); // Assert the response message has a key phrase in it
                 electricUnitOrderId = responseMessage.ToString().Split("Your order id is")[1];
@@ -124,7 +124,7 @@ namespace ensek_coding_challenge.Tests
                 responseObject = JsonConvert.DeserializeObject<JObject>(response.Content);
                 responseObject.Should().NotBeEmpty();  // Ensure the response is not empty
 
-                var responseMessage = responseObject.GetValue("message");
+                var responseMessage = responseObject.GetValue("message").ToString();
                 Assert.That(responseMessage.Contains("Your order id is")); // Assert the response message has a key phrase in it
                 oilUnitOrderId = responseMessage.ToString().Split("Your order id is")[1];
                 extentTest.Log(Status.Pass, "Test Result: Passed successfully");
@@ -150,8 +150,11 @@ namespace ensek_coding_challenge.Tests
                 responseObject.Should().NotBeEmpty();  // Ensure the response is not empty
 
                 foreach (JObject orders in responseObject) {
-                    if (orders.GetValue("id").ToString() == oilUnitOrderId || orders.GetValue("id").ToString() == nuclearUnitOrderId || orders.GetValue("id").ToString() == electricUnitOrderId || orders.GetValue("id").ToString() == gasUnitOrderId) {
-                        numberOfValidOrders += 1;
+                    if (orders != null && orders.GetValue("id") != null) {
+                    var id = orders.GetValue("id").ToString();
+                        if (id == oilUnitOrderId || id == nuclearUnitOrderId || id == electricUnitOrderId || id == gasUnitOrderId) {
+                            numberOfValidOrders += 1;
+                        }
                     }
                 }
 

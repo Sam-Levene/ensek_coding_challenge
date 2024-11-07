@@ -171,6 +171,8 @@ namespace ensek_coding_challenge.Tests
                 extentTest.Log(Status.Info, "Test Step 1: Retrieving data from the API");
                 var response = await GetAsync("/ENSEK/orders");
                 var responseObject = new JArray();
+                int numberOfTotalOrders = 0;
+                int numberOfOrdersBeforeToday = 0;
 
                 // Assert
                 response.StatusCode.Should().Be(HttpStatusCode.OK);  // Assert status code is 200 OK
@@ -178,6 +180,8 @@ namespace ensek_coding_challenge.Tests
                 responseObject.Should().NotBeEmpty();  // Ensure the response is not empty
 
                 foreach (JObject orders in responseObject) {
+                    numberOfTotalOrders += 1;
+
                     // Get the 'time' value from the JObject (in the format 'Wed, 06 Nov 2024 22:41:09 GMT')
                      string timeString = orders.GetValue("time").ToString();
 
@@ -187,8 +191,12 @@ namespace ensek_coding_challenge.Tests
                     // Parse the string into DateTime
                     DateTime dateTime = DateTime.ParseExact(timeString, format, CultureInfo.InvariantCulture, DateTimeStyles.AssumeUniversal);
                     
-                    //Assert DateTime is before today
-                    Assert.That(dateTime.Date < HelperFunctions.getCurrentDate().Date);
+                    if(dateTime.Date < HelperFunctions.getCurrentDate().Date) {
+                        numberOfOrdersBeforeToday += 1;
+                    }
+
+                    // Assert the total number of orders placed before today is 4 less than the current total number of orders
+                    Assert.That((numberOfOrdersBeforeToday + 4).Equals(numberOfTotalOrders));
                 }
                 extentTest.Log(Status.Pass, "Test Result: Passed successfully");
             } catch (Exception myException) {

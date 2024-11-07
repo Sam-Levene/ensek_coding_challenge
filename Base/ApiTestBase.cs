@@ -47,7 +47,7 @@ namespace ensek_coding_challenge.Base
         // Helper method for PUT requests
         public async Task<RestResponse> PutAsync<T>(string endpoint, T? body) where T : class  // Add the 'where T : class' constraint
         {
-            var request = new RestRequest(endpoint, Method.Post);
+            var request = new RestRequest(endpoint, Method.Put);
             if (body != null)
                 request.AddJsonBody(body);  // Now T is guaranteed to be a reference type
             return await client.ExecuteAsync(request);
@@ -56,7 +56,7 @@ namespace ensek_coding_challenge.Base
         // Helper method for DELETE requests
         public async Task<RestResponse> DeleteAsync<T>(string endpoint, T? body) where T : class  // Add the 'where T : class' constraint
         {
-            var request = new RestRequest(endpoint, Method.Post);
+            var request = new RestRequest(endpoint, Method.Delete);
             if (body != null)
                 request.AddJsonBody(body);  // Now T is guaranteed to be a reference type
             return await client.ExecuteAsync(request);

@@ -29,15 +29,17 @@ Before you begin, ensure you have met the following requirements:
 You can install the required NuGet packages using the .NET CLI:
 
 ```bash
-dotnet add package Microsoft.Extensions.Configuration 8.0.0
-dotnet add package Microsoft.Extensions.Configuration.Json 8.0.0
-dotnet add package Microsoft.NET.Test.Sdk 17.11.1
-dotnet add package ExtentReports 5.0.4
-dotnet add package Selenium.WebDriver 4.26.1
-dotnet add package Selenium.Support 4.26.1
-dotnet add package Selenium.WebDriver.ChromeDriver 130.0.6723.9300 # For Chrome, or install other drivers as needed
-dotnet add package NUnit 4.2.2 # Optional, for testing framework
-dotnet add package NUnit3TestAdapter 4.6.0 # Optional, for testing framework
+dotnet add package Microsoft.Extensions.Configuration
+dotnet add package Microsoft.Extensions.Configuration.Json
+dotnet add package Microsoft.NET.Test.Sdk
+dotnet add package ExtentReports
+dotnet add package Selenium.WebDriver
+dotnet add package Selenium.Support
+dotnet add package Selenium.WebDriver.ChromeDriver
+dotnet add package NUnit
+dotnet add package NUnit3TestAdapter
+dotnet add package RestSharp
+dotnet add package FluentAssertions
 ```
 
 Alternatively, you can use the Visual Studio NuGet Package Manager to install these dependencies.

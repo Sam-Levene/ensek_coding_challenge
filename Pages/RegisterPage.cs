@@ -1,8 +1,6 @@
 using OpenQA.Selenium;
-using OpenQA.Selenium.Support.UI;
-using System;
 
-namespace ensek_coding_challenge.Pages 
+namespace ensek_coding_challenge.Pages
 {
     public class RegisterPage 
     {

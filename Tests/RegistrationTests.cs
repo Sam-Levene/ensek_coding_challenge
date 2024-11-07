@@ -2,11 +2,10 @@ using NUnit.Framework;
 using ensek_coding_challenge.Base;
 using ensek_coding_challenge.Pages;
 using ensek_coding_challenge.Utilities;
-using OpenQA.Selenium;
 using ensek_coding_challenge.AppConfig;
 using AventStack.ExtentReports;
 
-namespace ensek_coding_challenge.Tests 
+namespace ensek_coding_challenge.Tests
 {
     [TestFixture]
     public class RegistrationTests : BaseTest 

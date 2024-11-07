@@ -13,7 +13,7 @@ namespace ensek_coding_challenge.Base
         [SetUp]
         public void Setup()
         {
-             var extent = ExtentReportManager.GetExtentReport();
+            var extent = ExtentReportManager.GetExtentReport();
             extentTest = extent.CreateTest("Sample Test");
             myDriver = DriverHelper.GetDriver();
         }

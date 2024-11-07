@@ -15,6 +15,7 @@ C:\Users\samle\Documents\projects\ensek_coding_challenge\bin\Debug\net8.0\ensek_
 C:\Users\samle\Documents\projects\ensek_coding_challenge\bin\Debug\net8.0\ensek_coding_challenge.dll
 C:\Users\samle\Documents\projects\ensek_coding_challenge\bin\Debug\net8.0\ensek_coding_challenge.pdb
 C:\Users\samle\Documents\projects\ensek_coding_challenge\bin\Debug\net8.0\ExtentReports.dll
+C:\Users\samle\Documents\projects\ensek_coding_challenge\bin\Debug\net8.0\FluentAssertions.dll
 C:\Users\samle\Documents\projects\ensek_coding_challenge\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
 C:\Users\samle\Documents\projects\ensek_coding_challenge\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
 C:\Users\samle\Documents\projects\ensek_coding_challenge\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
@@ -39,10 +40,13 @@ C:\Users\samle\Documents\projects\ensek_coding_challenge\bin\Debug\net8.0\Newton
 C:\Users\samle\Documents\projects\ensek_coding_challenge\bin\Debug\net8.0\nunit.framework.dll
 C:\Users\samle\Documents\projects\ensek_coding_challenge\bin\Debug\net8.0\nunit.framework.legacy.dll
 C:\Users\samle\Documents\projects\ensek_coding_challenge\bin\Debug\net8.0\RazorEngine.NetCore.dll
+C:\Users\samle\Documents\projects\ensek_coding_challenge\bin\Debug\net8.0\RestSharp.dll
 C:\Users\samle\Documents\projects\ensek_coding_challenge\bin\Debug\net8.0\WebDriver.Support.dll
 C:\Users\samle\Documents\projects\ensek_coding_challenge\bin\Debug\net8.0\WebDriver.dll
+C:\Users\samle\Documents\projects\ensek_coding_challenge\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
 C:\Users\samle\Documents\projects\ensek_coding_challenge\bin\Debug\net8.0\System.Drawing.Common.dll
 C:\Users\samle\Documents\projects\ensek_coding_challenge\bin\Debug\net8.0\System.Reactive.dll
+C:\Users\samle\Documents\projects\ensek_coding_challenge\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\samle\Documents\projects\ensek_coding_challenge\bin\Debug\net8.0\System.Security.Permissions.dll
 C:\Users\samle\Documents\projects\ensek_coding_challenge\bin\Debug\net8.0\System.Windows.Extensions.dll
 C:\Users\samle\Documents\projects\ensek_coding_challenge\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
@@ -139,6 +143,7 @@ C:\Users\samle\Documents\projects\ensek_coding_challenge\bin\Debug\net8.0\zh-Han
 C:\Users\samle\Documents\projects\ensek_coding_challenge\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\samle\Documents\projects\ensek_coding_challenge\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
 C:\Users\samle\Documents\projects\ensek_coding_challenge\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\samle\Documents\projects\ensek_coding_challenge\bin\Debug\net8.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\samle\Documents\projects\ensek_coding_challenge\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 C:\Users\samle\Documents\projects\ensek_coding_challenge\obj\Debug\net8.0\ensek_coding_challenge.csproj.AssemblyReference.cache
 C:\Users\samle\Documents\projects\ensek_coding_challenge\obj\Debug\net8.0\ensek_coding_challenge.GeneratedMSBuildEditorConfig.editorconfig
